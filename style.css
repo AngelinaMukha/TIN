@@ -1,0 +1,37 @@
+p, header{
+    font-style:italic;
+    font-size: medium;
+}
+#floated{
+    float: left;
+    width: 80px;
+}
+#container{
+    width: 100%;
+}
+.main:after{
+    content: "";
+  display: table;
+  clear: both;
+}
+.sub{
+    float: left;
+    width: 50%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: circle;
+}
+#apple{
+    width: 30px;
+}
+
+table, th, td {
+    border: 2px solid rgb(4, 109, 18);
+    border-collapse: collapse;
+}
+th, td {
+    background-color: #d2f3d2;
+}
