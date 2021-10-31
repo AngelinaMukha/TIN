@@ -1,0 +1,34 @@
+header, body{
+    background-color: #6A2E2E;
+    font-family: Cursive;
+}
+h1{
+    text-align: center;
+    color: #FFCF68;
+}
+#mainImg{
+    margin-top: 2%;
+    margin-left: 30%;
+    width: 40%;
+    border-radius: 30px;
+    transform: rotate(5deg);
+    box-shadow: 8px 8px 3px #361818;
+}
+.column {
+    float: left;
+    width: 20%;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+#FirstColumn{
+    color: #EFF6A5;
+}
+.FirstColumnImg{
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px #361818;
+}
