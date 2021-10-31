@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #1a1f36;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(215, 182, 245);  
+}
+body {
+    min-height: 100%;
+    background-color: #242229;
+}
+h1{
+    color: #a554d4;
+    text-decoration: unset;
+}
+input, textarea, select, option{
+    border-radius: 5px;
+    color: rgb(32, 6, 49);
+    background-color:rgb(216, 168, 248) ;
+}
+.mainDiv{
+    margin-top: 10%;
+    margin-left: 20%;
+    padding: 2%;
+    width: 60%;
+    height: 80%;
+    background: rgb(49, 43, 43);
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.12) 0px 7px 14px 0px, rgba(169, 68, 236, 0.377) 0px 3px 6px 0px;
+}
+p{
+    color: rgb(238, 94, 149);
+}
+.mandatoryField{
+    background-color: rgb(238, 94, 149);
+}
+.ResetButton{
+    border: unset;
+    padding: 8px;
+    margin: 1%;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(215, 182, 245);
+    background-color: rgba(169, 68, 236, 0.377);
+}
+.SubmitButton{
+    border: unset;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px;
+    margin: 1%;
+    color: rgb(43, 15, 70);
+    background-color: rgb(233, 158, 45);
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Tutorial_2</title>
+</head>
+<body>
+    <div class="mainDiv">
+    <h1>Sing in and add data to your account: </h1><br>
+    <p> * mandatory fields are in pink color</p>
+    <br>
+    <form>
+        <label for="emailField">Email: </label>
+        <input type="text" name="emailField" class="mandatoryField"><br><br>
+
+        <label for="passwordField">Password: </label>
+        <input type="password" name="passwordField" class="mandatoryField"><br><br>
+
+        <label for="news">Do you want us to send you news from our company? </label><br><br>
+        <input type="checkbox" name="news"> Yes<br><br>
+
+        <label for="gender">Сhoose your gender: </label>
+        <input type="radio" name="gender" checked value="1"> Male  
+        <input type="radio" name="gender" value="2"> Female<br><br>
+
+        <label for="progLang">Choose programing language:</label>
+        <select name="progLang">
+            <option value="Java">Java</option>
+            <option value="C">C#</option>
+            <option value="Python">Python</option>
+            <option value="JavaScript">JavaScript</option>
+        </select>
+        <br><br>
+        <textarea placeholder="Write here message to the manager..."></textarea><br><br>
+        <input type="reset" class="ResetButton" value="Reset" /> 
+        <input type="submit" class="SubmitButton" value="Submit">
+    </form>
+    </div>
+</body>
+</html>
