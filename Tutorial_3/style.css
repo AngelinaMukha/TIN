@@ -14,21 +14,40 @@ h1{
     transform: rotate(5deg);
     box-shadow: 8px 8px 3px #361818;
 }
-.column {
-    float: left;
-    width: 20%;
-}
-  
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 1%;
+    grid-template-columns: repeat(auto-fill, Xpx);
   }
+.grid-item{
+
+}
+
 #FirstColumn{
     color: #EFF6A5;
+    text-align: center;
 }
 .FirstColumnImg{
-    width: 80%;
+    width: 90%;
     border-radius: 20px;
     box-shadow: 5px 5px 2px #361818;
+}
+.pquote {
+    float: right;
+    width: 50%;
+    color: #FFCF68;
+    font-size:xx-large;
+    font-weight: bold;
+}
+blockquote {
+    margin: 0; 
+}
+.articleImg{
+    float: left;
+    width: 50%;
+    padding: 3%;
+    font-weight: bold;
+    border-radius: 20px;
 }
